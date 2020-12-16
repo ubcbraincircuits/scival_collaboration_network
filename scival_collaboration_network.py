@@ -7,6 +7,8 @@ list_filename = "DMCBH_List.csv" # .csv list of researchers' first and last name
 pubs_filename = "DMCBH Pubs 2015-2019.csv" # exported .csv from SciVal with list of publications
 
 list_file_object = open(list_filename,'r',encoding='utf-8-sig')
+# list_file_object = open(list_filename,'r',encoding='cp1252')
+# list_file_object = open(list_filename,'r',encoding='cp850')
 list_lines = list_file_object.readlines()
 
 authors_list = []
