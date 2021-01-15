@@ -14,5 +14,5 @@ There is currently a known bug where .csv files generated differently will cause
 uncommenting out one of lines 9-11 and try running again.
 
 In Cytoscape, import the data from the output.csv file. When importing, make the "from" column the source node, and make the "to"
-column the target node. Once in Cystoscape, you can import the styles.xml file to edit the appearance of your graph. You can download 
+column the target node. Once in Cytoscape, you can import the styles.xml file to edit the appearance of your graph. You can download 
 the yFiles layouts to get additional layout options (yFiles Hierarchical seems to work quite well).
